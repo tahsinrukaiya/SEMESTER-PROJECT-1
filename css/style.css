@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/*---------my colors: 
+FFFBC1
+ EF822C
+  9ED5C5 
+  FDD36A
+   93BFCF
+---------------------------------------------------------------*/
+
+
+
+/*-------------------DESIGN FOR MOBILE-----------------------*/
+.museum_info{
+    width: 100%;
+    background:#FFFBC1;
+    padding: 30px 30px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+}
+.museum_info h2{
+    margin-left: 23px;
+    padding: 5px;
+}
+.museum_banner{
+   display: none;
+}
+
+.museum_info p{
+    padding: 0px 30px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
