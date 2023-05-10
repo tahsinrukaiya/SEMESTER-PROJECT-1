@@ -61,7 +61,7 @@ FFFBC1
       padding:12px 30px;
       text-decoration: none;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 18px;
+      font-size: 15px;
       font-weight: bold;  
       transition:color 0.3s;
   }
@@ -123,6 +123,42 @@ FFFBC1
         color: white;
 
     }
+
+/*-------------PAGE LINKS------------------*/
+
+.page_links div{
+  color:white;
+  margin: 16px;
+  width:calc(100%-32px);
+  height:100px;
+  background-color:#311B24;
+}
+
+.page_links div h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+}
+
+.page_links a{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
