@@ -33,6 +33,7 @@ FFFBC1
       margin-left: 10px;
       margin-top: 10px;
   }
+
   .top_navigation{
       position: fixed;
       top: 0;
@@ -105,7 +106,7 @@ FFFBC1
   .banner_text_mv{
     text-align: center;
     position:absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -170,7 +171,6 @@ FFFBC1
   color:black;
   font-weight: 200;
 }
-
 
 .container_2{
   background-image: url(../images/milkyway.jpg);
@@ -270,7 +270,7 @@ footer{
   padding:40px 40px;
   background-color: black;
   overflow: hidden;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 
 footer ul{
