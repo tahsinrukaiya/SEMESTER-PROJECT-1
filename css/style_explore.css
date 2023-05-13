@@ -1,0 +1,21 @@
+footer{
+    width:calc(100%- 80px);
+    padding:40px 40px;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 50% !important;
+  }
+
+  .container_1 .box_container .box p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    padding: 5px;
+    line-height: 1.6;
+  }
+  .container_1 .box_container .box h3{
+    padding-top: 25px;
+    padding-bottom:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight:bold;
+  }
