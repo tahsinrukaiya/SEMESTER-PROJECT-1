@@ -38,7 +38,8 @@ FFFBC1
       top: 0;
       left:0;
       width:100%;
-      height: 60px;
+      height: 80px;
+      background-color: #311B24;
       padding: 10px, 50px;
       box-sizing: border-box;
       z-index: 2;  
@@ -56,11 +57,11 @@ FFFBC1
   nav ul li a{
       line-height:70px;
       color: white;
-      padding:12px 30px;
+      padding: 12px 30px;
       text-decoration: none;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 15px;
-      font-weight: bold;  
+      font-weight: 200; 
       transition:color 0.3s;
   }
   
@@ -109,7 +110,7 @@ FFFBC1
     transform: translate(-50%, -50%);
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 23px;
+    font-size: 20px;
  }
   
  .banner_text_dv{
@@ -161,11 +162,13 @@ FFFBC1
 
 .container_1 .box_container .box img{
   height: 450px;
-  width: 380px;
+  width: 350px;
 }
 
 .container_1 .box_container .box h3{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-weight: 200;
 }
 
 
@@ -205,7 +208,7 @@ FFFBC1
 .container_2 .box_container .box h3{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .container_1 .box_container .box .btn{
@@ -219,7 +222,7 @@ FFFBC1
 }
 
 .container_1 .box_container .box .btn:hover{
-  opacity: 50%;
+  transform: scale(1.1);
 }
 
 .container_1 .box_container .box a{
@@ -267,7 +270,7 @@ footer{
   padding:40px 40px;
   background-color: black;
   overflow: hidden;
-  margin-top: 50%;
+  margin-top: 30%;
 }
 
 footer ul{
@@ -342,7 +345,7 @@ footer ul li a{
   
     .checkbtn{
     display: block;
-    padding-top: 20px;
+    padding-top: 5px;
    }
   
    #check:checked ~ ul{
@@ -355,11 +358,10 @@ footer ul li a{
 
   .search_box{
     display: flex;
-    margin-top: 5px;
     height: 30px;
-    line-height: 35px;
+    line-height: 10px;
     float: right;
-    padding: 5px;
+    padding-top: 2px;
   }
 
   .search_box input{
@@ -388,12 +390,12 @@ footer ul li a{
 .banner_text_mv{
   text-align: center;
   position:absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 }
