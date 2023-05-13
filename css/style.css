@@ -313,6 +313,7 @@ footer ul li a{
   
     .checkbtn{
     display: block;
+    padding-top: 20px;
    }
   
    #check:checked ~ ul{
