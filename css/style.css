@@ -122,7 +122,6 @@ FFFBC1
     font-family:sans-serif; 
     font-size: 20px;
   }
-  
 
     .category{
       color: #393E46;
@@ -171,17 +170,20 @@ FFFBC1
 
 
 .container_2{
-  background-image: url(../images/blackbg.jpg);
+  background-image: url(../images/milkyway.jpg);
   padding: 15px 9%;
   padding-bottom: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 100%;
 }
-
 
 .container_2 .heading{
   text-align: center;
   padding-bottom: 15px;
   color: white;
   font-size: 50px;
+  text-shadow: 4px;
 }
 .container_2 .box_container{
   display: grid;
@@ -206,16 +208,43 @@ FFFBC1
   font-weight: 100;
 }
 
+.container_1 .box_container .box .btn{
+  margin-top:10px;
+  display:inline-block;
+  background:#311B24;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 8px 25px;
+}
 
+.container_1 .box_container .box .btn:hover{
+  opacity: 50%;
+}
 
+.container_1 .box_container .box a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-
-
-
-
-
-
-
+.container_2 .box_container .box .btn{
+  margin-top:10px;
+  display:inline-block;
+  background:#311B24;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 8px 25px;
+}
+.container_2 .box_container .box .btn:hover{
+  background:white;
+  color:#311B24;
+  
+}
+.container_2 .box_container .box a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
