@@ -27,34 +27,44 @@ FFFBC1
     display: none;
   }
 
-  nav img{
+  nav .logo img{
       padding: 5px;
-      height: 120px;
-      margin-left: 10px;
-      margin-top: 10px;
+      height: 110px;
+      margin-left: 5px;
+      margin-top: 5px;
   }
 
-  .top_navigation{
-      position: fixed;
-      top: 0;
-      left:0;
-      width:100%;
-      height: 80px;
+  nav{
       background-color: #311B24;
-      padding: 10px, 50px;
       box-sizing: border-box;
+      border-left: none;
+      border-right:none;
+      display: flex;
+      align-items: center;
       z-index: 2;  
   }
   
   nav ul{
       list-style-type: none;
       display: flex;
-      margin: 0;
-      padding: 0;
+      overflow: hidden;
+      flex-wrap: wrap;
       float: right;
-      margin-top: 0;
+      align-items:center;
+      justify-content: center;
   }
   
+  nav ul div.items{
+    padding: 0 20px;
+    display:inline-flex;
+  }
+
+  nav ul div .items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+  }
+
   nav ul li a{
       line-height:70px;
       color: white;
@@ -63,14 +73,9 @@ FFFBC1
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size: 15px;
       font-weight: 200; 
-      transition:color 0.3s;
-  }
-  
-  nav ul li a:hover{
-    transform: scale(1.07);
   }
 
-  .search_box{
+  nav ul .search_box{
     display: flex;
     margin: auto 0;
     height: 35px;
@@ -82,10 +87,11 @@ FFFBC1
   .search_box input{
     border: none;
     height: 100%;
-    width: 400px;
+    width: 200px;
     outline: none;
     background: white;
     padding: 0 10px;
+    font-size: 16px;
   }
   
   .fa-magnifying-glass{
