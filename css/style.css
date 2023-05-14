@@ -421,4 +421,21 @@ footer ul li a{
   font-weight: 200;
 }
 
+.container_1 .box_container .box img{
+  height: 300px;
+  width: 260px;
+}
+
+.container_2 .box_container .box img{
+  height:260px;
+  width:260px;
+}
+
+.banner_visit_text{
+  line-height: 60px; 
+}
+.banner_visit .banner_visit_text p{
+  font-size: 18px;
+}
+
 }
