@@ -1,11 +1,11 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>COMMUNITY SCIENCE MUSEUM_Home</title>
         <meta name="description" content="home page of SCIENCE MUSEUM"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link href="css/style.css" rel="stylesheet">
-        <link href="css/style_explore.css" rel="stylesheet">
+        <link href="css/style_events&exhibition.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,42 +16,45 @@
       </head>
 
  <body>
-    <nav class="top_navigation">
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <image src = "images/logo.jpg" alt="museum-logo">
-          
-         <ul>
-            <div class="items">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="explore.html">EXPLORE</a></li>
-          <li><a href="events&exhibition.html">EVENTS & EXHIBITION</a></li>
-          <li><a href="visit.html">VISIT</a></li>
-          <li><a href="support.html">SUPPORT</a></li>
-        </div>
-        <li class="search_box">
-            <input type="search" placeholder="search events">
-            <span class="fa-solid fa-magnifying-glass"></span>
-        </li>
-        </ul>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <div class="logo">
+    <image src = "images/logo.jpg" alt="museum-logo"></div>
+    </div>
+      <ul>
+      <div class="items">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="explore.html">EXPLORE</a></li>
+      <li><a href="events&exhibition.html">EVENTS & EXHIBITION</a></li>
+      <li><a href="visit.html">VISIT</a></li>
+      <li><a href="support.html">SUPPORT</a></li>
+    </div>
+    <li class="search_box">
+        <input type="search" placeholder="search events">
+        <span class="fa-solid fa-magnifying-glass"></span>
+    </li>
+    </ul>
+  </nav>
 
-      </nav>
-
-      <!-----CONTENT STARTS HERE--------------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="wrapper">
+          <h2>Events & Exhibitions</h2>
+          <article class="image_info">
+           <h4>Cosmology</h4>
+           <p>
+            Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, 
+            explores the night sky and what we can see and know about the universe around us.
+            </p>
+            <p>We’ll locate the various constellations and galaxies that can be seen and learn
+              a bit about the early navigators who used the stars to travel by.<p>
+             Follow the journey of our solar exploration: from early Arab traders, to Galileo’s
+              telescope, to the latest exploration of the planets in our solar system.
+           </p>
+          </article>
+          <img class="img_cosmology" src="images/cosmology.jpg" alt="planets">
+      </div>
  </body>
 
  <footer>
@@ -76,11 +79,5 @@
           <img src="images/instagram.png" alt="youtube-icon">
         </a>
       </div>
-
-
-
-
-
  </footer>
-
       </html>

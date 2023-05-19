@@ -5,3 +5,97 @@ footer{
     overflow: hidden;
     margin-top: 50% !important;
   }
+ 
+.container_cosmology .heading{
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:200;
+}
+
+.wrapper{
+  width:100%;
+}
+
+.img_cosmology{
+  width:100%;
+}
+
+.wrapper h2{
+  padding: 30px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color:black;
+  text-align: center;
+}
+
+.image_info h4{
+  padding: 30px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color:black;
+  line-height:44px;
+}
+
+.image_info p{
+  padding: 0px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color:black;
+  line-height:24px;
+}
+
+.img_cosmology{
+  width: 100%;
+}
+
+/*------------MEDIA QUERY------------------*/
+@media only screen and (min-width:768px){
+  .wrapper{
+    width:600px;
+    margin:0 auto;
+  }
+
+  .image_info h4{
+    padding: 20px 0px 0px;
+  }
+  
+  .image_info p{
+    padding: 20px 0px 0px;
+  }
+  
+  .img_cosmology{
+    padding-top:30px;
+  }
+}
+
+@media only screen and (min-width:1000px){
+   .wrapper{
+    width: 1000px;
+   }
+
+   .image_info{
+    width: 50%;
+    float:right;
+   }
+
+   .img_cosmology{
+    padding-top:30px;
+    width: 50%;
+    float: left;
+  }
+   
+  .image_info h4{
+    padding: 20px 0px 0px 30px;
+  }
+  
+  .image_info p{
+    padding: 20px 0px 0px 30px;
+  }
+
+
+
+
+}
+
