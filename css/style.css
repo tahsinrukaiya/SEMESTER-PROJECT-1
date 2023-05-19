@@ -124,10 +124,10 @@ FFFBC1
   display:inline-block;
   background:#D36B00;
   font-size: 18px;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 25px;
+  padding: 15px;
   width: 220px;
-  height:40px;
+  height:50px;
   border: 1.5px solid white;
   margin-top:10px;
  }
@@ -249,7 +249,7 @@ FFFBC1
   background:#D36B00;
   color: black;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 8px 25px;
 }
 
@@ -268,7 +268,7 @@ FFFBC1
   background:#D36B00;
   color: black;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 8px 25px;
   border: 1.5px solid white;
 }
