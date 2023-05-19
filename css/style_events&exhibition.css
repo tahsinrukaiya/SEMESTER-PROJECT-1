@@ -6,13 +6,7 @@ footer{
     margin-top: 50% !important;
   }
  
-.container_cosmology .heading{
-  color: black;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-weight:200;
-}
-
-.wrapper{
+.wrapper_1{
   width:100%;
 }
 
@@ -20,7 +14,7 @@ footer{
   width:100%;
 }
 
-.wrapper h2{
+.wrapper_1 h2{
   padding: 30px 30px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 24px;
@@ -46,13 +40,48 @@ footer{
   line-height:24px;
 }
 
-.img_cosmology{
+.img_evolution{
   width: 100%;
 }
 
-/*------------MEDIA QUERY------------------*/
+.wrapper_2 , .wrapper_3 , .wrapper_4 , .wrapper_5{
+  width:100%;
+}
+
+.wrapper_2 h2{
+  padding: 30px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color:black;
+  text-align: center;
+}
+
+.image_info h4{
+  padding: 30px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color:black;
+  line-height:44px;
+}
+
+.image_info p{
+  padding: 0px 30px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color:black;
+  line-height:24px;
+}
+
+.img_evolution{
+  width: 100%;
+}
+
+
+/*-----------------------------------------------MEDIA QUERY-------------------------------------------*/
 @media only screen and (min-width:768px){
-  .wrapper{
+  .wrapper_1{
     width:600px;
     margin:0 auto;
   }
@@ -71,7 +100,7 @@ footer{
 }
 
 @media only screen and (min-width:1000px){
-   .wrapper{
+   .wrapper_1{
     width: 1000px;
    }
 
@@ -93,9 +122,6 @@ footer{
   .image_info p{
     padding: 20px 0px 0px 30px;
   }
-
-
-
 
 }
 
