@@ -384,11 +384,12 @@ footer ul li a{
   
     nav .items li{
         flex-direction: column;
-        flex-wrap: wrap;
         background: black;
-        top: 80px;
+        top: 50px;
         left: 0;
         text-align: center;
+        width: 375px;
+        margin-left: 0;
     }  
   
     nav ul div.items{
