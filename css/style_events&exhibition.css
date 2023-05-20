@@ -88,6 +88,11 @@ img{
 }
 
 @media only screen and (min-width:1000px){
+  
+  .logo img{
+    width: 100% !important;
+   }
+   
    .wrapper{
     width: 1000px;
    }

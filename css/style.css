@@ -434,8 +434,8 @@ footer ul li a{
   }
 
   nav img{
-    padding: 5px;
-    height:40px;
+    padding: 3px;
+    height:50%;
     text-align: center;
  }
 
@@ -454,8 +454,9 @@ footer ul li a{
   font-weight: 200;
 }
 .link_to_buy_tickets{
-  margin-top:20%;
+  margin-top:20px;
 }
+
 .link_to_buy_tickets a{
   font-size:15px;
 }
