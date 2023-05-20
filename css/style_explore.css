@@ -40,10 +40,8 @@ footer{
 /*------------------MEIDA QUERY-------------------*/
   @media only screen and (max-width:853px){
     .container_1 .box_container .box p{
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-size:16px;
       padding:3px 3px 3px 3px;
-      line-height: 1.6;
     }
 
     .container_1 .box_container .box img{
