@@ -213,12 +213,13 @@ FFFBC1
   background-position: center 100%;
 }
 
-.container_2 .heading{
+.container_2 h1{
   text-align: center;
   padding-bottom: 15px;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   text-shadow: 4px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .container_2 .box_container{
   display: grid;
@@ -233,8 +234,8 @@ FFFBC1
 }
 
 .container_2 .box_container .box img{
-  height: 300px;
-  width: 300px;
+  height: 220px;
+  width: 220px;
 }
 
 .container_2 .box_container .box h3{
@@ -450,12 +451,12 @@ footer ul li a{
 
 .container_1 .box_container .box img{
   height: 300px;
-  width: 260px;
+  width: 250px;
 }
 
 .container_2 .box_container .box img{
-  height:260px;
-  width:260px;
+  height:200px;
+  width:200px;
 }
 
 .banner_visit_text{
