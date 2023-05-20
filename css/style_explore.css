@@ -20,8 +20,9 @@ footer{
 
  .container_1 .heading{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+  color:black;
   font-weight:200;
+  font-size: 50px;
  }
   .container_1 .box_container .box p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -33,8 +34,7 @@ footer{
     padding-top: 25px;
     padding-bottom:25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
-    font-weight:bold;
+    color:#D36B00;
   }
 
 /*------------------MEIDA QUERY-------------------*/

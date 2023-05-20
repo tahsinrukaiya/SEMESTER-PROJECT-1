@@ -3,5 +3,95 @@ footer{
     padding:40px 40px;
     background-color: black;
     overflow: hidden;
-    margin-top: 50% !important;
+    margin-top: 25% !important;
   }
+
+  .container_1{
+    margin-top: 20px;
+  }
+
+  .container_1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-weight:200;
+    font-size: 50px;
+    text-align: center;
+    margin-top:10px;
+   }
+    .container_1 .box_container .box p{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:20px;
+      padding: 5px;
+      line-height: 1.6;
+    }
+    .container_1 .box_container .box h3{
+      padding-top: 25px;
+      padding-bottom:25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:#D36B00;
+    }
+   
+    .container_1 .box_container .box img{
+      height: 100px;
+      width:100px;
+      margin-top: 20px;
+    }
+
+    /*--------------GETTING INVOLVED SECTION----------------*/
+    .container_get_involved{
+      margin-top: 20px;
+    }
+  
+    .container_get_involved h2{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:black;
+      font-weight:200;
+      font-size: 50px;
+      text-align: center;
+      margin-top:10px;
+     }
+    .container_get_involved .box p{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        padding: 5px;
+        line-height: 1.6;
+      }
+    .container_get_involved .box_container .box h3{
+        padding-top: 25px;
+        padding-bottom:25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:#D36B00;
+      }
+     
+    .container_get_involved .box_container .box img{
+        height: 100px;
+        width:100px;
+        margin-top: 20px;
+      }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*------------------MEIDA QUERY-------------------*/
+
+  
