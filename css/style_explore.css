@@ -6,18 +6,6 @@ footer{
     margin-top: 30% !important;
   }
 
-
-  /*
-  .container_1{
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/galaxy_1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 100%; 
-  }
- */
-
  .container_1 .heading{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color:black;

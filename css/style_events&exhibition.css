@@ -3,7 +3,7 @@ footer{
     padding:40px 40px;
     background-color: black;
     overflow: hidden;
-    margin-top: 50% !important;
+    margin-top: 25% !important;
   }
 
 .heading h2{
@@ -56,17 +56,85 @@ h4{
   padding-bottom: 15px;
 }
 
+/*---------------------SPECIAL EVENTS SECTION------------------------*/
+
+.container_special_events{
+  margin-top: 10%;
+}
+
+.container_special_events .box_container{
+  margin: 20px 0px 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(279px, 1fr));
+  gap: 10px;
+}
+
+.container_special_events .box_container .box{
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.container_special_events .box_container .box img{
+  height: 450px;
+  width: 400px;
+}
+
+.container_special_events .heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-weight:200;
+  font-size: 50px;
+  text-align: center;
+  padding:30px 0px 0px 30px;
+ }
+
+ .container_special_events .box_container .box p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    padding: 5px;
+    line-height: 1.6;
+    color:black;
+  }
+
+.container_special_events .box_container .box h3{
+    padding-top: 25px;
+    padding-bottom:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#D36B00;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .container_special_events .box_container .box img{
+    margin-left:0;
+    height:300px;
+    width:260px;
+ }
+
+/*------------------MEIDA QUERY-------------------*/
+  @media only screen and (max-width:853px){
+    .container_special_events .box_container .box p{
+      font-size:16px;
+      padding:3px 3px 3px 3px;
+    }
+
+    .container_special_events .box_container .box img{
+       margin-left:0;
+       height:300px;
+       width:260px;
+    }
+    .row {
+      width:90%;
+      grid-template-columns: 1fr;
+      margin-left:5%;
+    }
+
+  }
 @media (max-width:991px){
   .row .rigth_part .content{
     padding-left: 0;
   }
 }
 
-@media (max-width:853px){
-  .row {
-    width:90%;
-    grid-template-columns: 1fr;
-    margin-left:5%;
-  }
-}
 

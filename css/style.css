@@ -354,6 +354,16 @@ footer ul li a{
   display: block;
 }
 
+.footer_contact li{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  line-height: 40px;
+  font-size: 18px;
+  display: block;
+} 
+
+
 .footer_sm{
   width:40px;
   float:right;
