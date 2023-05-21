@@ -398,6 +398,7 @@ footer ul li a{
   
     nav ul div.items a{
      font-size: 12px;
+     margin-top: 20%;
      }
   
     .checkbtn{
@@ -490,6 +491,12 @@ footer ul li a{
 .banner_visit_text h1{
   font-size:30px;
 }
+}
+
+@media only screen and (max-width:820px){
+  .link_to_buy_tickets{
+    margin-top:200px;
+  }
 }
 
 @media only screen and (min-width:1000px){
