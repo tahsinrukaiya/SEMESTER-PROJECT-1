@@ -25,7 +25,8 @@ footer{
   grid-template-columns: repeat(2,1fr);
   grid-gap: 50px 30px;
   margin-top: 10px;
-  margin-left: 22%; 
+  margin-left: 0;
+  padding-left: 10px;
 }
 
 .row .left_part{
@@ -135,6 +136,12 @@ h4{
   .row .rigth_part .content{
     padding-left: 0;
   }
+  
+  @media (min-width:1000px){
+    .row {
+      margin-left: 22%;
+    }
+ }
 }
 
 
