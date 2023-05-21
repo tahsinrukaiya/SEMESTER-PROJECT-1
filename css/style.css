@@ -511,7 +511,12 @@ footer ul li a{
 
 @media only screen and (min-width:1000px){
   .banner_text_dv{
-    top:600px;
+    top:650px;
     left: 50%;
   }
+  .link_to_buy_tickets{
+    margin-top:25%;
+  }
+  
+
 }
