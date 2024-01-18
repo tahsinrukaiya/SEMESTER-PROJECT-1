@@ -40,10 +40,12 @@ On the bottom right of your VSCode, click the Go Live Button and start browsing.
 
 Suggestions and feedback are always welcome. If you'd like to contribute, you can do the following:
 
-Report a bug
+Report a bug:
+
 If you find any bugs or errors in my projects, I would love to know. You can contact me via email.
 
-Request a feature
+Request a feature:
+
 Send me an email here if you have any suggestions on how to improve the site. 
 
 
