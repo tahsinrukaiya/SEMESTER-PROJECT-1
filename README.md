@@ -19,7 +19,7 @@ Visit
 
 The page is built with:
 
-HTML5
+HTML5 &
 CSS3
 
 ⚡ Getting stared
@@ -28,7 +28,9 @@ To run my page follow these steps:
 
 1.Clone the repo:
 git clone https://github.com/tahsinrukaiya/SEMESTER-PROJECT-1.git
+
 Install the Live Preview extension in VSCode
+
 If you already have Live Preview intalled, you can skip this step.
 
 Click the Go Live button
@@ -57,6 +59,7 @@ tahsinshorna@gmail.com
 Thanks to 
 
 1.https://www.freepik.com/
+
 2.https://fontawesome.com/icons
 
 
