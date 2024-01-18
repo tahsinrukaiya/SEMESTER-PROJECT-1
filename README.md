@@ -7,11 +7,16 @@
 COMMUNITY SCIENCE MUSEUM
 
 Description
+
 An interactive science museum called the Community Science Museum is opening in a town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents.
 The Website has following pages:
+
 Home
+
 Explore
+
 Events & Exhibition
+
 Visit
 
 
@@ -29,11 +34,11 @@ To run my page follow these steps:
 1.Clone the repo:
 git clone https://github.com/tahsinrukaiya/SEMESTER-PROJECT-1.git
 
-Install the Live Preview extension in VSCode
+2.Install the Live Preview extension in VSCode
 
-If you already have Live Preview intalled, you can skip this step.
+3.If you already have Live Preview intalled, you can skip this step.
 
-Click the Go Live button
+4.Click the Go Live button
 On the bottom right of your VSCode, click the Go Live Button and start browsing.
 
 🔥 Contribute
